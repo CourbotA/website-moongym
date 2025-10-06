@@ -14,8 +14,6 @@ if (yearSpan) {
     yearSpan.textContent = new Date().getFullYear();
 }
 
-
-
 document.querySelectorAll('[data-carousel]').forEach((carousel) => {
     const track = carousel.querySelector('.photo-carousel__track');
     const prevBtn = carousel.querySelector('.photo-carousel__nav--prev');
